@@ -1,0 +1,33 @@
+{
+    "session_file": "237695288526",
+    "phone": "237695288526",
+    "register_time": 1709926036,
+    "app_id": 133612,
+    "app_hash": "b8c264a8b3e9ffb53b9024d98a08ea7e",
+    "sdk": "SDK 32",
+    "app_version": "10.2.6 (1020602)",
+    "device": "Oppo1105",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Alaine",
+    "last_name": "Nostro",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "hu",
+    "system_lang_pack": "en-er",
+    "proxy": null,
+    "twoFA": "MkobfeY%~",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328950,
+    "user_id": 7010742442,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19011,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

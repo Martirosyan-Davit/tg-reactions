@@ -1,0 +1,33 @@
+{
+    "session_file": "237696142939",
+    "phone": "237696142939",
+    "register_time": 1709881236,
+    "app_id": 63606,
+    "app_hash": "7628a3e99d2a866b1b946b59b4eafe6e",
+    "sdk": "SDK 32",
+    "app_version": "10.2.6 (1020602)",
+    "device": "MotorolaXT916",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Alex",
+    "last_name": "Bartel",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "cs",
+    "system_lang_pack": "ee-tg",
+    "proxy": null,
+    "twoFA": "_$v#$d.=F7lAOn6Sf7|",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328934,
+    "user_id": 6996551191,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19057,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

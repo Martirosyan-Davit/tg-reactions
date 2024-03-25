@@ -1,0 +1,33 @@
+{
+    "session_file": "237696248005",
+    "phone": "237696248005",
+    "register_time": 1709770288,
+    "app_id": 99126,
+    "app_hash": "2e141b6137b3e7cbe7b0ec6be438751f",
+    "sdk": "SDK 32",
+    "app_version": "3.18.14-GTY1289 (71647)",
+    "device": "HuaweiHUAWEIP7-L10",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Bethany",
+    "last_name": "Rafalski",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "kk",
+    "system_lang_pack": "it-va",
+    "proxy": null,
+    "twoFA": "HeJjT,r+/",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328938,
+    "user_id": 7156923849,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19038,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

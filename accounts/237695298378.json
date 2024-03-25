@@ -1,0 +1,33 @@
+{
+    "session_file": "237695298378",
+    "phone": "237695298378",
+    "register_time": 1709894993,
+    "app_id": 99126,
+    "app_hash": "2e141b6137b3e7cbe7b0ec6be438751f",
+    "sdk": "SDK 30",
+    "app_version": "10.1.3 (1010302)",
+    "device": "HisenseLED55K380U",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Dorsey",
+    "last_name": "Hubenthal",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "bm",
+    "system_lang_pack": "nl-nl",
+    "proxy": null,
+    "twoFA": "gu>{E^PvXa;wh",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328933,
+    "user_id": 7137888454,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19026,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

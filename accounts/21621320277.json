@@ -1,0 +1,51 @@
+{
+    "app_hash": "0a632d140643052a01df71cecaadf394",
+    "app_id": 1132203,
+    "app_version": "9.3.3 (3026009)",
+    "avatar": null,
+    "block": null,
+    "blocked_untile": null,
+    "device": "LGELG-H873",
+    "first_name": "Peter",
+    "ipv6": false,
+    "is_old": false,
+    "lang_pack": "fr",
+    "last_check_time": null,
+    "last_name": "Aydin",
+    "last_use": 1710505693,
+    "messages": {
+        "secret": 0,
+        "send_usual": 9,
+        "sent_id": 0
+    },
+    "phone": "21621320277",
+    "premium": false,
+    "proxy": [
+        2,
+        "93.190.142.57",
+        12881,
+        true,
+        "12081819-res-country-NO-state-3143242-city-3143244",
+        "v4yzmjp4"
+    ],
+    "register_time": 1709772801,
+    "role_id": null,
+    "sdk": "SDK 33",
+    "session_file": "21621320277",
+    "sessions": 0,
+    "sex": 1,
+    "status": "ok",
+    "status_time": 1710333376,
+    "system_lang_pack": "en-gh",
+    "twoFA": "HP5Q{<iiI$YIl&4sXi~KPiu",
+    "user_id": 7104555194,
+    "username": null,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19002,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "session_file": "237696119220",
+    "phone": "237696119220",
+    "register_time": 1709664222,
+    "app_id": 714437,
+    "app_hash": "d08f2b0236301e5f7e082f1777bc9a37",
+    "sdk": "SDK 30",
+    "app_version": "v10.2.3-05c0800 (1645201344)",
+    "device": "OppoU707",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Chad",
+    "last_name": "July",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "eu",
+    "system_lang_pack": "de-it",
+    "proxy": null,
+    "twoFA": "pB`FD3s5gURo%h?{wEJ^o?}",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328935,
+    "user_id": 7071456148,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19037,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

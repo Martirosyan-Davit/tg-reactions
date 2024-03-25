@@ -1,0 +1,33 @@
+{
+    "session_file": "237693162068",
+    "phone": "237693162068",
+    "register_time": 1709764233,
+    "app_id": 16536302,
+    "app_hash": "4787579b87a92c960d802d922de60f9d",
+    "sdk": "SDK 32",
+    "app_version": "v10.1.1-4cae802 (1645201308)",
+    "device": "OppoCPH1875",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Hwa",
+    "last_name": "Dornbos",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "el",
+    "system_lang_pack": "en-kn",
+    "proxy": null,
+    "twoFA": "ssbJ2PC{",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328927,
+    "user_id": 7186251860,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19017,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

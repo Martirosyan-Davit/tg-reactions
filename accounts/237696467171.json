@@ -1,0 +1,33 @@
+{
+    "session_file": "237696467171",
+    "phone": "237696467171",
+    "register_time": 1709901161,
+    "app_id": 659337,
+    "app_hash": "314703a39f45937dcdee8dbb8c2dacbb",
+    "sdk": "SDK 33",
+    "app_version": "10.2.6 (40829)",
+    "device": "HuaweiHWV31",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Carlo",
+    "last_name": "Orpen",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "de",
+    "system_lang_pack": "sl-si",
+    "proxy": null,
+    "twoFA": ":|3|$_TL#p,>@$xRs",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328931,
+    "user_id": 7011224632,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19046,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

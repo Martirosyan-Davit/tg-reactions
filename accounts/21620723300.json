@@ -1,0 +1,51 @@
+{
+    "app_hash": "4787579b87a92c960d802d922de60f9d",
+    "app_id": 16536302,
+    "app_version": "9.7.4 (2696789)",
+    "avatar": null,
+    "block": null,
+    "blocked_untile": null,
+    "device": "OppoCPH1987",
+    "first_name": "Phil",
+    "ipv6": false,
+    "is_old": false,
+    "lang_pack": "kl",
+    "last_check_time": null,
+    "last_name": "Preas",
+    "last_use": 1710499012,
+    "messages": {
+        "secret": 0,
+        "send_usual": 1,
+        "sent_id": 0
+    },
+    "phone": "21620723300",
+    "premium": false,
+    "proxy": [
+        2,
+        "190.2.130.11",
+        14922,
+        true,
+        "12081821-res-country-NO-state-3143242-city-3143244-session-6",
+        "1u996fxxcr"
+    ],
+    "register_time": 1709865564,
+    "role_id": null,
+    "sdk": "SDK 30",
+    "session_file": "21620723300",
+    "sessions": 0,
+    "sex": 1,
+    "status": "ok",
+    "status_time": 1710333382,
+    "system_lang_pack": "sr-cs",
+    "twoFA": "I&~a=B<Q^!*u",
+    "user_id": 7010150198,
+    "username": null,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19022,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

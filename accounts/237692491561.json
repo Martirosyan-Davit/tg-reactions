@@ -1,0 +1,33 @@
+{
+    "session_file": "237692491561",
+    "phone": "237692491561",
+    "register_time": 1709769148,
+    "app_id": 49985,
+    "app_hash": "76cac4363826d1e762d41399839a5870",
+    "sdk": "SDK 32",
+    "app_version": "3.13.1.5 (8530)",
+    "device": "HuaweiCPN-AL00",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Mandy",
+    "last_name": "Horrocks",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "en",
+    "system_lang_pack": "fr-vu",
+    "proxy": null,
+    "twoFA": "Vj2,N2lNoq",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328920,
+    "user_id": 6835682383,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19030,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "session_file": "237692503781",
+    "phone": "237692503781",
+    "register_time": 1709877396,
+    "app_id": 73200,
+    "app_hash": "472fe19751263fa26aa36e23d5197e67",
+    "sdk": "SDK 30",
+    "app_version": "4.9.4 (13611)",
+    "device": "LGELGL722DL",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Spencer",
+    "last_name": "Beath",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "ii",
+    "system_lang_pack": "en-ky",
+    "proxy": null,
+    "twoFA": ">-v_q15x]`YKM/;7",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328920,
+    "user_id": 7198661646,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19032,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

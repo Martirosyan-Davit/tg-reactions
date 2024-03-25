@@ -1,0 +1,33 @@
+{
+    "session_file": "237693888360",
+    "phone": "237693888360",
+    "register_time": 1710149848,
+    "app_id": 19797609,
+    "app_hash": "e8f1567dbbf38944a1391c4d23c34b60",
+    "sdk": "SDK 30",
+    "app_version": "9.3.3 (30275)",
+    "device": "LGELG-M250",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Cecil",
+    "last_name": "Castrillo",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "hi",
+    "system_lang_pack": "en-nf",
+    "proxy": null,
+    "twoFA": "V=#@4,)$y`*1GE/3Pf",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328944,
+    "user_id": 6439692895,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19045,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

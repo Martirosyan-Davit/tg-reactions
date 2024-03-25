@@ -1,0 +1,33 @@
+{
+    "session_file": "237697725991",
+    "phone": "237697725991",
+    "register_time": 1709764662,
+    "app_id": 19797609,
+    "app_hash": "e8f1567dbbf38944a1391c4d23c34b60",
+    "sdk": "SDK 30",
+    "app_version": "10.2.0 (1020002)",
+    "device": "SamsungSM-A716B",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Vernon",
+    "last_name": "Tapat",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "bm",
+    "system_lang_pack": "es-py",
+    "proxy": null,
+    "twoFA": "j.|_/l6V;lbZ6Oe2&hQ3{",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328941,
+    "user_id": 7026572899,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19054,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

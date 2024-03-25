@@ -1,0 +1,33 @@
+{
+    "session_file": "237693728370",
+    "phone": "237693728370",
+    "register_time": 1709635250,
+    "app_id": 49985,
+    "app_hash": "76cac4363826d1e762d41399839a5870",
+    "sdk": "SDK 30",
+    "app_version": "3.18.14-GTY1289 (71647)",
+    "device": "SamsungSM-G360V",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Myles",
+    "last_name": "Neborak",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "bo",
+    "system_lang_pack": "es-pe",
+    "proxy": null,
+    "twoFA": "R2X*?ykN8jB]kz$2%p@FY",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328936,
+    "user_id": 7124906780,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19044,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

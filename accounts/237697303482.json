@@ -1,0 +1,33 @@
+{
+    "session_file": "237697303482",
+    "phone": "237697303482",
+    "register_time": 1709767666,
+    "app_id": 73200,
+    "app_hash": "472fe19751263fa26aa36e23d5197e67",
+    "sdk": "SDK 32",
+    "app_version": "3.0.1 (301002)",
+    "device": "HTCHTC5GHub",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Shelton",
+    "last_name": "Nachtrieb",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "kn",
+    "system_lang_pack": "en-bz",
+    "proxy": null,
+    "twoFA": "%Q){aur",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328935,
+    "user_id": 7034949573,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19052,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

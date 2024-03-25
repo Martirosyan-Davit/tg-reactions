@@ -1,0 +1,33 @@
+{
+    "session_file": "237693836437",
+    "phone": "237693836437",
+    "register_time": 1709763056,
+    "app_id": 16536302,
+    "app_hash": "4787579b87a92c960d802d922de60f9d",
+    "sdk": "SDK 32",
+    "app_version": "10.0.4 (2696809)",
+    "device": "SamsungSM-J710FQ",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Laurene",
+    "last_name": "Thom",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "ga",
+    "system_lang_pack": "es-bo",
+    "proxy": null,
+    "twoFA": ";|Gcg,+dBks)5@-^9c$Luj",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328929,
+    "user_id": 7091117851,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19029,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

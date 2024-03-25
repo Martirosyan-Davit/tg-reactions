@@ -1,0 +1,33 @@
+{
+    "session_file": "237692292060",
+    "phone": "237692292060",
+    "register_time": 1709685176,
+    "app_id": 35979,
+    "app_hash": "fac7419bfbfff19c8241c268017fee2e",
+    "sdk": "SDK 30",
+    "app_version": "9.1.6 (29305)",
+    "device": "HuaweiHUAWEIY360-U42",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Loren",
+    "last_name": "Fabin",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "gl",
+    "system_lang_pack": "hr-hr",
+    "proxy": null,
+    "twoFA": "Jr{P?+|62T[MnJ*Fg>hH{",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328923,
+    "user_id": 6721784751,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19023,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

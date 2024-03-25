@@ -1,0 +1,33 @@
+{
+    "session_file": "237696914311",
+    "phone": "237696914311",
+    "register_time": 1709876125,
+    "app_id": 16536302,
+    "app_hash": "4787579b87a92c960d802d922de60f9d",
+    "sdk": "SDK 31",
+    "app_version": "9.7.4 (2696789)",
+    "device": "HuaweiHUAWEIU8950-51",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Florance",
+    "last_name": "Schaedler",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "ga",
+    "system_lang_pack": "en-na",
+    "proxy": null,
+    "twoFA": "esa5Ms&;q#`+7G5%QYH@",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328937,
+    "user_id": 6950784707,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19028,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

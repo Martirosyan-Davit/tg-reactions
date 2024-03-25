@@ -1,0 +1,33 @@
+{
+    "session_file": "237692614802",
+    "phone": "237692614802",
+    "register_time": 1709764278,
+    "app_id": 63606,
+    "app_hash": "7628a3e99d2a866b1b946b59b4eafe6e",
+    "sdk": "SDK 31",
+    "app_version": "4.9.3 (13600)",
+    "device": "MicromaxMicromaxQ461",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Miranda",
+    "last_name": "Oconner",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "it",
+    "system_lang_pack": "en-pr",
+    "proxy": null,
+    "twoFA": "v|R>oJU8RW&CKb3d",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328923,
+    "user_id": 6706219306,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19056,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

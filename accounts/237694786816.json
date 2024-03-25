@@ -1,0 +1,33 @@
+{
+    "session_file": "237694786816",
+    "phone": "237694786816",
+    "register_time": 1709870667,
+    "app_id": 1132203,
+    "app_hash": "0a632d140643052a01df71cecaadf394",
+    "sdk": "SDK 31",
+    "app_version": "9.7.4 (2696789)",
+    "device": "LGELG-P490L",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Rudolf",
+    "last_name": "Colvert",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "ig",
+    "system_lang_pack": "ru-ua",
+    "proxy": null,
+    "twoFA": "SzHf&Tb3x9s?%ul",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328929,
+    "user_id": 7120957742,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19040,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

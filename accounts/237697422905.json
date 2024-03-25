@@ -1,0 +1,33 @@
+{
+    "session_file": "237697422905",
+    "phone": "237697422905",
+    "register_time": 1709675614,
+    "app_id": 19797609,
+    "app_hash": "e8f1567dbbf38944a1391c4d23c34b60",
+    "sdk": "SDK 30",
+    "app_version": "10.2.9 (40879)",
+    "device": "IrbisSP550",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Daryl",
+    "last_name": "Wyler",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "ar",
+    "system_lang_pack": "gsw-fr",
+    "proxy": null,
+    "twoFA": "<zKV$00yJd?v8{l",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328938,
+    "user_id": 6744278145,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19051,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

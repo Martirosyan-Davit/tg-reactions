@@ -1,0 +1,33 @@
+{
+    "session_file": "237693528378",
+    "phone": "237693528378",
+    "register_time": 1709903115,
+    "app_id": 35979,
+    "app_hash": "fac7419bfbfff19c8241c268017fee2e",
+    "sdk": "SDK 31",
+    "app_version": "3.13.1.5 (8530)",
+    "device": "XiaomiMI8UD",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Manuel",
+    "last_name": "Alberry",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "fi",
+    "system_lang_pack": "fr-gf",
+    "proxy": null,
+    "twoFA": "5HrYw*$rw|>;a;-pws9",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328933,
+    "user_id": 7062979001,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19048,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

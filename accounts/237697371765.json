@@ -1,0 +1,33 @@
+{
+    "session_file": "237697371765",
+    "phone": "237697371765",
+    "register_time": 1709923351,
+    "app_id": 49985,
+    "app_hash": "76cac4363826d1e762d41399839a5870",
+    "sdk": "SDK 31",
+    "app_version": "9.0.2 (28105)",
+    "device": "HisenseLED58XT880J3DU",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Antonina",
+    "last_name": "Mcgready",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "iw",
+    "system_lang_pack": "ru-ru",
+    "proxy": null,
+    "twoFA": "r1A1kOOQvawJZi;VOiu-6A",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328938,
+    "user_id": 6520807642,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19043,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

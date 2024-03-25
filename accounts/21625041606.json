@@ -1,0 +1,51 @@
+{
+    "app_hash": "4787579b87a92c960d802d922de60f9d",
+    "app_id": 16536302,
+    "app_version": "9.6.6 (75126)",
+    "avatar": null,
+    "block": null,
+    "blocked_untile": null,
+    "device": "MicromaxA89",
+    "first_name": "Ambrose",
+    "ipv6": false,
+    "is_old": false,
+    "lang_pack": "hy",
+    "last_check_time": null,
+    "last_name": "Morrey",
+    "last_use": 1710505780,
+    "messages": {
+        "secret": 0,
+        "send_usual": 10,
+        "sent_id": 0
+    },
+    "phone": "21625041606",
+    "premium": false,
+    "proxy": [
+        2,
+        "62.112.10.68",
+        12350,
+        true,
+        "12081827-res-country-NO-state-3143242-city-3143244-session-11",
+        "2optx19gp2"
+    ],
+    "register_time": 1709770242,
+    "role_id": null,
+    "sdk": "SDK 30",
+    "session_file": "21625041606",
+    "sessions": 0,
+    "sex": 0,
+    "status": "ok",
+    "status_time": 1710333379,
+    "system_lang_pack": "en-sb",
+    "twoFA": "auB4M5]g];3cZF&",
+    "user_id": 6993647521,
+    "username": null,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19025,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

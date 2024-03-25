@@ -1,0 +1,33 @@
+{
+    "session_file": "237692489417",
+    "phone": "237692489417",
+    "register_time": 1709773524,
+    "app_id": 1132203,
+    "app_hash": "0a632d140643052a01df71cecaadf394",
+    "sdk": "SDK 31",
+    "app_version": "10.2.0 (1020002)",
+    "device": "DEXPT155",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Tiffani",
+    "last_name": "Duntz",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "ha",
+    "system_lang_pack": "gv-im",
+    "proxy": null,
+    "twoFA": "5^9_Oqd{g`",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328935,
+    "user_id": 6768480937,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19015,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

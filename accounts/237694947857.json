@@ -1,0 +1,33 @@
+{
+    "session_file": "237694947857",
+    "phone": "237694947857",
+    "register_time": 1709922684,
+    "app_id": 35979,
+    "app_hash": "fac7419bfbfff19c8241c268017fee2e",
+    "sdk": "SDK 32",
+    "app_version": "v10.2.3-05c0800 (1645201344)",
+    "device": "SymphonyZ15",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Jenell",
+    "last_name": "Fleener",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "el",
+    "system_lang_pack": "ca-it",
+    "proxy": null,
+    "twoFA": "j?yxcP`$2",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328932,
+    "user_id": 7194353142,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19012,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

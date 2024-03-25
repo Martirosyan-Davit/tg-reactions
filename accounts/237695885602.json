@@ -1,0 +1,33 @@
+{
+    "session_file": "237695885602",
+    "phone": "237695885602",
+    "register_time": 1709869213,
+    "app_id": 44985,
+    "app_hash": "a4fceafeebf8dacf8be80b73dbc160fc",
+    "sdk": "SDK 31",
+    "app_version": "v10.2.3-05c0800 (1645201344)",
+    "device": "HTCHTC_B810x",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Rebecca",
+    "last_name": "Walken",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "fa",
+    "system_lang_pack": "fr-ga",
+    "proxy": null,
+    "twoFA": "F%Tcn@(28^GfwA0;{98kt",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328939,
+    "user_id": 7163149030,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19034,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

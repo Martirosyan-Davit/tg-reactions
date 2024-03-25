@@ -1,0 +1,33 @@
+{
+    "session_file": "237694277024",
+    "phone": "237694277024",
+    "register_time": 1710034356,
+    "app_id": 16536302,
+    "app_hash": "4787579b87a92c960d802d922de60f9d",
+    "sdk": "SDK 31",
+    "app_version": "10.0.4 (75161)",
+    "device": "OppoR1001",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Cary",
+    "last_name": "Juliet",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "bg",
+    "system_lang_pack": "es-uy",
+    "proxy": null,
+    "twoFA": "$`C~h4](E!PXx..}aDz2%l:0",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328924,
+    "user_id": 7152459512,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19019,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

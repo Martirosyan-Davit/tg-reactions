@@ -1,0 +1,33 @@
+{
+    "session_file": "237693192112",
+    "phone": "237693192112",
+    "register_time": 1710149727,
+    "app_id": 19797609,
+    "app_hash": "e8f1567dbbf38944a1391c4d23c34b60",
+    "sdk": "SDK 30",
+    "app_version": "3.0.2 (302012)",
+    "device": "LGELG-F370K",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Catalina",
+    "last_name": "Coss",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "fr",
+    "system_lang_pack": "fi-fi",
+    "proxy": null,
+    "twoFA": "n$aDGb",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328924,
+    "user_id": 6993065190,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19031,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "session_file": "237694943168",
+    "phone": "237694943168",
+    "register_time": 1709672275,
+    "app_id": 133612,
+    "app_hash": "b8c264a8b3e9ffb53b9024d98a08ea7e",
+    "sdk": "SDK 31",
+    "app_version": "10.2.3 (40749)",
+    "device": "MicromaxMicromaxA104",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Kathaleen",
+    "last_name": "Shines",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "et",
+    "system_lang_pack": "th-th",
+    "proxy": null,
+    "twoFA": "2fx-}:54YHk@z$oyO]@2",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328946,
+    "user_id": 7052163236,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19007,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

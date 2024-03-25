@@ -1,0 +1,33 @@
+{
+    "session_file": "237697705901",
+    "phone": "237697705901",
+    "register_time": 1709704742,
+    "app_id": 99126,
+    "app_hash": "2e141b6137b3e7cbe7b0ec6be438751f",
+    "sdk": "SDK 30",
+    "app_version": "10.2.9 (40879)",
+    "device": "SamsungSM-A5160",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Kyle",
+    "last_name": "Gehring",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "de",
+    "system_lang_pack": "es-uy",
+    "proxy": null,
+    "twoFA": "A:E6~MqhjX|5m}",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328938,
+    "user_id": 7146594669,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19047,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

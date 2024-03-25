@@ -1,0 +1,33 @@
+{
+    "session_file": "237695855017",
+    "phone": "237695855017",
+    "register_time": 1709768781,
+    "app_id": 73200,
+    "app_hash": "472fe19751263fa26aa36e23d5197e67",
+    "sdk": "SDK 31",
+    "app_version": "10.0.4 (75161)",
+    "device": "HisenseHS-U609",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Dong",
+    "last_name": "Lazaga",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "kw",
+    "system_lang_pack": "en-sg",
+    "proxy": null,
+    "twoFA": "h`n>aN:(xN]g|L0",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328951,
+    "user_id": 6314124314,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19027,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

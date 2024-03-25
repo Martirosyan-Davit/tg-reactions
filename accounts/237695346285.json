@@ -1,0 +1,33 @@
+{
+    "session_file": "237695346285",
+    "phone": "237695346285",
+    "register_time": 1709906369,
+    "app_id": 44985,
+    "app_hash": "a4fceafeebf8dacf8be80b73dbc160fc",
+    "sdk": "SDK 31",
+    "app_version": "10.0.4 (2696809)",
+    "device": "HuaweiHUAWEIY635-L02",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Rufus",
+    "last_name": "Jarriett",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "fr",
+    "system_lang_pack": "en-bw",
+    "proxy": null,
+    "twoFA": "7sFx!TaQCuo?)pv5@",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328944,
+    "user_id": 7095248894,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19024,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

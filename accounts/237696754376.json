@@ -1,0 +1,33 @@
+{
+    "session_file": "237696754376",
+    "phone": "237696754376",
+    "register_time": 1709900161,
+    "app_id": 1132203,
+    "app_hash": "0a632d140643052a01df71cecaadf394",
+    "sdk": "SDK 33",
+    "app_version": "3.0.0 (300002)",
+    "device": "HotwavMagic6",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Rosendo",
+    "last_name": "Brisker",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "ha",
+    "system_lang_pack": "gsw-mo",
+    "proxy": null,
+    "twoFA": "R,k^kG/[ki",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328936,
+    "user_id": 7134944685,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19006,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

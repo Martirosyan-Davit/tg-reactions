@@ -1,0 +1,33 @@
+{
+    "session_file": "237696849596",
+    "phone": "237696849596",
+    "register_time": 1709914701,
+    "app_id": 63606,
+    "app_hash": "7628a3e99d2a866b1b946b59b4eafe6e",
+    "sdk": "SDK 30",
+    "app_version": "3.13.1.5 (8530)",
+    "device": "DigmaOptima1024N4GTT1188PL",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Johnnie",
+    "last_name": "Alfredo",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "gu",
+    "system_lang_pack": "ar-om",
+    "proxy": null,
+    "twoFA": "!;Y]^[!|Aig*8RC(?CQNcxV",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328945,
+    "user_id": 6995565049,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19042,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

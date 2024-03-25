@@ -1,0 +1,33 @@
+{
+    "session_file": "237693373464",
+    "phone": "237693373464",
+    "register_time": 1710115290,
+    "app_id": 44985,
+    "app_hash": "a4fceafeebf8dacf8be80b73dbc160fc",
+    "sdk": "SDK 30",
+    "app_version": "10.1.3 (1010302)",
+    "device": "HTCUSCCADR6230US",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Fletcher",
+    "last_name": "Fabio",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "kl",
+    "system_lang_pack": "es-cl",
+    "proxy": null,
+    "twoFA": "$pCIVI?Whky:UO6mTxm",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328921,
+    "user_id": 6578937783,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19009,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "session_file": "237697325621",
+    "phone": "237697325621",
+    "register_time": 1709921197,
+    "app_id": 1132203,
+    "app_hash": "0a632d140643052a01df71cecaadf394",
+    "sdk": "SDK 33",
+    "app_version": "10.2.6 (40839)",
+    "device": "DoogeeX12",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Clorinda",
+    "last_name": "Hagmaier",
+    "username": null,
+    "sex": 0,
+    "lang_pack": "cy",
+    "system_lang_pack": "ar-om",
+    "proxy": null,
+    "twoFA": "hEh*Ju6So&VQAyCj10Eu%*|>",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328942,
+    "user_id": 7048119451,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19049,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

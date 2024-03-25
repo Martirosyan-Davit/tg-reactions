@@ -1,0 +1,33 @@
+{
+    "session_file": "237694666951",
+    "phone": "237694666951",
+    "register_time": 1709907435,
+    "app_id": 19797609,
+    "app_hash": "e8f1567dbbf38944a1391c4d23c34b60",
+    "sdk": "SDK 30",
+    "app_version": "10.0.4 (75161)",
+    "device": "SamsungSM-J250M",
+    "last_check_time": null,
+    "avatar": null,
+    "first_name": "Nicky",
+    "last_name": "Dambra",
+    "username": null,
+    "sex": 1,
+    "lang_pack": "dz",
+    "system_lang_pack": "de-ch",
+    "proxy": null,
+    "twoFA": "VU4Zfi2pz/Oc#+n>?;{#",
+    "ipv6": false,
+    "status": "ok",
+    "status_time": 1710328930,
+    "user_id": 7139267352,
+    "is_old": false,
+    "proxy_settings": [
+        2,
+        "ipv4.reproxy.network",
+        19021,
+        true,
+        "aleksey112_15352",
+        "cAwYBsr925"
+    ]
+}

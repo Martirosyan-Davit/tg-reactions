@@ -26,7 +26,7 @@ async def subscribe_to_channels(api_id, api_hash, phone_number, channel_links, m
             session_file_path = f'accounts/{phone_number.replace("+", "")}.session'
             account_info = load_account_info(phone_number)
             proxy_settings = None
-            if account_info and 'proxy_settings' in account_info:
+            if account_info and 'proxy_settings' in account_info and account_info['proxy_settings']:
                 proxy = account_info['proxy_settings']
                 try:
                     proxy_settings = {

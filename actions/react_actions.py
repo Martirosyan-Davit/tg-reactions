@@ -25,7 +25,7 @@ async def process_account(api_id, api_hash, phone_number, channels_info, max_ret
             session_file_path = f'accounts/{phone_number.replace("+", "")}.session'
             account_info = load_account_info(phone_number)
             proxy_settings = None
-            if account_info and 'proxy_settings' in account_info:
+            if account_info and 'proxy_settings' in account_info and account_info['proxy_settings']:
                 proxy = account_info['proxy_settings']
                 proxy_settings = {
                     'proxy_type': 'socks5',  # (mandatory) protocol to use
@@ -35,6 +35,8 @@ async def process_account(api_id, api_hash, phone_number, channels_info, max_ret
                     'password': proxy[5],    # (optional) password if the proxy requires authentication
                     'rdns': True             # (optional) whether to use remote or local resolve, default remote
                 }
+            else:
+                print(f"Skipping account {phone_number} as proxy not found...")
             async with TelegramClient(session_file_path, api_id, api_hash, proxy=proxy_settings) as client:
                 await client.start(phone_number)
                 dialogs = await client.get_dialogs()
@@ -86,6 +88,14 @@ async def process_dialog(client, dialog, emojis, channels_info, react_to_message
             unread_message_ids = []
             messages_sent = 0
             random.shuffle(messages)
+            channel_name = dialog.name if hasattr(dialog, 'name') else 'default'
+            channel_info = channels_info.get(channel_name, {})
+            minutes_to_process = channel_info.get('minutes_to_process', 1)  # Default to 3 minutes if not specified
+            react_max = channel_info.get('react_max', 1)
+            if len(messages) > 0:
+                sleep_time = max((minutes_to_process * 60) / (len(messages) * react_max), 3)  # Adjusted sleep time
+            else:
+                sleep_time = 3
             for message in messages:
                 if not message.out:
                     if messages_sent > 99:
@@ -93,7 +103,7 @@ async def process_dialog(client, dialog, emojis, channels_info, react_to_message
                         messages_sent = 0
                     messages_sent += 1
                     if react_to_messages:
-                        success = await react_to_message(client, message, emojis, channels_info)
+                        success = await react_to_message(client, message, emojis, channels_info, sleep_time)
                     unread_message_ids.append(message.id)
             if unread_message_ids:
                 await client.send_read_acknowledge(dialog.id, max_id=max(unread_message_ids))
@@ -130,7 +140,6 @@ async def send_react_to_message_request(client, message, reaction, max_retries=3
                 reaction_data = [types.ReactionCustomEmoji(document_id=reaction.document_id)]
             else:
                 reaction_data = [types.ReactionEmoji(emoticon=reaction)]
-            await asyncio.sleep(3)
             await client(functions.messages.SendReactionRequest(
                 peer=message.chat_id,
                 msg_id=message.id,
@@ -160,7 +169,7 @@ async def send_react_to_message_request(client, message, reaction, max_retries=3
     logger.warning(f"Failed to send reaction after {max_retries} retries. Skipping.")
     return False  # Failed to send reaction after retries
 
-async def react_to_message(client, message, emojis, channels_info, max_retries=3):
+async def react_to_message(client, message, emojis, channels_info, sleep_time, max_retries=3):
     """
     Asynchronously attempts to add a reaction to a specific message using a given list of emojis. The function
     ensures that the reaction count does not exceed a pre-defined limit for the channel where the message was posted.
@@ -202,6 +211,7 @@ async def react_to_message(client, message, emojis, channels_info, max_retries=3
     while retries < max_retries:
         try:
             random.shuffle(emojis)
+            await asyncio.sleep(sleep_time)
             for reaction in emojis:
                 success = await send_react_to_message_request(client, message, reaction)
                 if success:

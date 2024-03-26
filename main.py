@@ -3,6 +3,7 @@ import os
 import time
 from actions.react_actions import perform_actions
 from json_helpers import load_account_info, load_channel_info
+from setup_channels_json import setup_channels
 import random
 from tiny_db.database import db
 
@@ -29,6 +30,7 @@ async def assign_and_react():
 async def main():
     while True:
         db.truncate()
+        await setup_channels()
         await assign_and_react()
         print("Waiting for 1 minute before the next run...")
         time.sleep(60)  # Wait for 1 minute before the next run

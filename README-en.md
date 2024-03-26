@@ -45,7 +45,7 @@
 
 ## Configuration
 
-Modify the script's behavior through variables in `main.py` such as `batch_size` for processing batch sizes, and `fallback_reactions` for default emoji reactions.
+Modify the script's behavior through variables in `start_reacting.py` such as `batch_size` for processing batch sizes, and `fallback_reactions` for default emoji reactions.
 
 ## Logging
 
@@ -79,7 +79,11 @@ Configures logging for the application, including file output and log format.
 
 ### `main.py`
 
-Main script for the application, orchestrating account processing and message reactions.
+A wrapper script that schedules and runs start_main.py at specified intervals.
+
+### `start_reacting.py`
+
+The main script that is now executed by main.py to process accounts and react to messages. This script contains the core functionality.
 
 ### `sys-channels.json`
 

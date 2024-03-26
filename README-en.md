@@ -37,7 +37,7 @@
      ```
 
 4. **Join Telegram channels (optional):**
-   - Update the `channels.json` file with the names and links of the channels you wish to join.
+   - Update the `sys-channels.json` file with the names and links of the channels you wish to join.
    - Run the `start_channel_joining.py` script to subscribe your accounts to these channels:
      ```sh
      python start_channel_joining.py
@@ -81,12 +81,27 @@ Configures logging for the application, including file output and log format.
 
 Main script for the application, orchestrating account processing and message reactions.
 
-### `channels.json`
+### `sys-channels.json`
 
 Contains channel names and links for interaction.
+
+### `channels-config.txt`
+
+This text file allows for easy configuration of channel names and emojis for reactions. Configure your desired channels and reaction emojis in a simple, line-by-line format for straightforward editing and updating.
+
+### `setup_channels_json.py`
+
+Script responsible for converting the `channels-config.txt` into the `sys-channels.json` format required by the application.
+
+### Updating Channel Configurations
+
+To update your channel reactions and subscriptions:
+
+1. Edit the `channels-config.txt` file with your desired channel names, reaction ranges, and emojis.
+2. Run the `main.py` script to validate and transform your configurations into the `sys-channels.json` file.
 
 ### `proxies.txt`
 
 Text file with proxy details formatted as `host:port:username:password` per line. Used by `setup_proxies.py` to configure account proxy settings.
 
-This setup ensures a flexible and configurable application for automatically reacting to Telegram messages, optionally using proxies for account connections and supporting channel subscriptions.
+This setup ensures a flexible and configurable application for automatically reacting to Telegram messages, by using proxies for account connections and supporting channel subscriptions.

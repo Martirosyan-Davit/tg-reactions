@@ -57,7 +57,11 @@ async def process_account(api_id, api_hash, phone_number, channels_info, max_ret
             retries += 1
             logger.info(f"Retrying processing account {phone_number} (attempt {retries}/{max_retries})")
     logger.error(f"Failed to process account {phone_number} after {max_retries} retries")
-
+    with open('not-working-accounts.txt', 'r+') as file:
+            non_working_accounts = file.read().splitlines()
+            if phone_number not in non_working_accounts:
+                file.write(f'{phone_number}\n')
+                
 async def process_dialog(client, dialog, emojis, channels_info, react_to_messages, max_retries=3):
     """
     Process messages in a Telegram dialog, reacting to unread messages.

@@ -1,15 +1,17 @@
 import asyncio
+import json
 import os
-from actions.react_actions import perform_actions
+import random
+import subprocess
+import tempfile
 from json_helpers import load_account_info, load_channel_info
 from setup_channels_json import setup_channels
-import random
 from tiny_db.database import db
 
 async def assign_and_react():
     session_files = [f[:-5] for f in os.listdir('accounts') if f.endswith('.json')]
     random.shuffle(session_files)
-    batch_size = 10
+    batch_size = 200
     channels_info, _ = load_channel_info()
 
     for i in range(0, len(session_files), batch_size):
@@ -24,7 +26,13 @@ async def assign_and_react():
                     account_batches.append((account_info['app_id'], account_info['app_hash'], phone, account_channels))
         
         if account_batches:
-            await perform_actions(account_batches)
+            # Use a temporary file to pass the batch data
+            with tempfile.NamedTemporaryFile(mode='w+', delete=False) as tmp:
+                json.dump(account_batches, tmp)
+                tmp_path = tmp.name
+            
+            # Launch a subprocess for each batch
+            subprocess.run(['python', 'batch_processor.py', tmp_path])
 
 async def main():
     print("Started...")

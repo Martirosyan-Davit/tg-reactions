@@ -56,7 +56,10 @@ async def process_account(api_id, api_hash, phone_number, channels_info, max_ret
             logger.warning(f"Error processing account {phone_number}: {e}")
             retries += 1
             logger.info(f"Retrying processing account {phone_number} (attempt {retries}/{max_retries})")
-    logger.error(f"Failed to process account {phone_number} after {max_retries} retries")
+        except:
+            logger.warning(f"Error processing account {phone_number}")
+            retries += 1
+            logger.info(f"Retrying processing account {phone_number} (attempt {retries}/{max_retries})")
     with open('not-working-accounts.txt', 'r+') as file:
             non_working_accounts = file.read().splitlines()
             if phone_number not in non_working_accounts:
@@ -195,35 +198,67 @@ async def react_to_message(client, message, emojis, channels_info, sleep_time, m
     reactions allowed, the function will return False.
     """
     channel_name = message.chat.title if hasattr(message.chat, 'title') else 'default'
-    message_id_str = f"{channel_name}_{str(message.id)}"  # Create a unique identifier for the message
+    message_id_str = f"{channel_name}_{str(message.id)}"
 
     MessageQuery = Query()
     message_record = db.search(MessageQuery.message_id == message_id_str)
 
-    # Check if this message_id already has a record
     if not message_record:
-        # If not, determine the number of reactions and insert a new record
-        react_min, react_max = channels_info.get(channel_name, {}).get('react_min', 1), channels_info.get(channel_name, {}).get('react_max', 1)
-        reactions_count = random.randint(react_min, react_max)
-        db.insert({'message_id': message_id_str, 'reactions': reactions_count})
+        # Shuffle emojis to ensure random selection of primary emoji
+        random.shuffle(emojis)
+        total_emojis = len(emojis)
+        total_reactions = random.randint(channels_info.get(channel_name, {}).get('react_min', 1),
+                                         channels_info.get(channel_name, {}).get('react_max', 1))
+        
+        # Define the distribution percentages for each priority level
+        distribution_percents = [0.95]  # 95% for the primary emoji
+        if total_emojis > 1:
+            distribution_percents.append(0.03)  # 3% for the first secondary if available
+        if total_emojis > 2:
+            remaining_percent = 0.02  # Distribute the remaining among the rest
+            for _ in range(2, total_emojis):
+                distribution_percents.append(remaining_percent / (total_emojis - 2))
+        
+        # Calculate reaction distribution
+        reaction_distribution = {}
+        remaining_reactions = total_reactions
+        for index, emoji in enumerate(emojis):
+            if index < len(distribution_percents):
+                reactions = int(total_reactions * distribution_percents[index])
+            else:
+                reactions = int(remaining_reactions / (total_emojis - index))  # Evenly distribute the remaining reactions
+            reaction_distribution[emoji] = reactions
+            remaining_reactions -= reactions
+        
+        # Ensure the total number of reactions doesn't exceed the initial count due to rounding
+        if sum(reaction_distribution.values()) > total_reactions:
+            # Adjust the last emoji's reaction count to match the total exactly
+            correction = sum(reaction_distribution.values()) - total_reactions
+            reaction_distribution[emojis[-1]] -= correction
+
+        db.insert({'message_id': message_id_str, 'reactions': reaction_distribution})
+
+
     else:
-        # If there's a record but no reactions left, return False immediately
-        if message_record[0]['reactions'] <= 0:
-            return False
+        reaction_distribution = message_record[0]['reactions']
+        if all(reaction <= 0 for reaction in reaction_distribution.values()):
+            return False  # No reactions left to distribute
 
     retries = 0
     while retries < max_retries:
         try:
-            random.shuffle(emojis)
             await asyncio.sleep(sleep_time)
-            for reaction in emojis:
-                success = await send_react_to_message_request(client, message, reaction)
-                if success:
-                    # Decrement the reaction count in the database
-                    current_reactions = db.search(MessageQuery.message_id == message_id_str)[0]['reactions']
-                    db.update({'reactions': current_reactions - 1}, MessageQuery.message_id == message_id_str)
-                    return True
-            # If unable to send a reaction, exit the loop
+            reaction_items = list(reaction_distribution.items())
+            random.shuffle(reaction_items)
+            for reaction, count in reaction_items:
+                if count > 0:
+                    success = await send_react_to_message_request(client, message, reaction)
+                    if success:
+                        # Decrement the reaction count for this emoji
+                        reaction_distribution[reaction] -= 1
+                        db.update({'reactions': reaction_distribution}, MessageQuery.message_id == message_id_str)
+                        return True
+            # If unable to send any reaction, exit the loop
             break
         except errors.FloodWaitError as e:
             await asyncio.sleep(e.seconds)

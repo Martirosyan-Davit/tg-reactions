@@ -69,6 +69,11 @@ async def subscribe_to_channels(api_id, api_hash, phone_number, channel_links, m
             logger.warning(f"Error subscribing account {phone_number} to channels: {e}")
             retries += 1
             logger.info(f"Retrying subscribing account {phone_number} to channels (attempt {retries}/{max_retries})")
+        except:
+            logger.warning(f"Error subscribing account {phone_number}")
+            retries += 1
+            logger.info(f"Retrying subscribing account {phone_number} to channels (attempt {retries}/{max_retries})")
+        
     logger.error(f"Failed to subscribe account {phone_number} to channels after {max_retries} retries")
 
 async def perform_actions(account_credentials, channel_links):

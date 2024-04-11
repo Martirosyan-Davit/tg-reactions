@@ -1,0 +1,53 @@
+{
+    "channels_names_to_react": {
+        "test 2": {
+            "react_min": 300,
+            "react_max": 400,
+            "emojis": [
+                "👏",
+                "🤔",
+                "😍",
+                "😎"
+            ],
+            "minutes_to_process": 1
+        },
+        "Test3": {
+            "react_min": 300,
+            "react_max": 400,
+            "emojis": [
+                "👏",
+                "🤔",
+                "😍",
+                "😎"
+            ],
+            "minutes_to_process": 1
+        },
+        "120 к": {
+            "react_min": 300,
+            "react_max": 400,
+            "emojis": [
+                "👏",
+                "🤔",
+                "😍",
+                "😎"
+            ],
+            "minutes_to_process": 1
+        },
+        "TESTING": {
+            "react_min": 300,
+            "react_max": 400,
+            "emojis": [
+                "👏",
+                "🤔",
+                "😍",
+                "😎"
+            ],
+            "minutes_to_process": 1
+        }
+    },
+    "channel_links_to_subscribe": [
+        "@rcgdhd",
+        "@secreteke",
+        "@weexzyuyyy"
+    ]
+}

@@ -1,17 +1,29 @@
-import os
 import json
-
 from asyncio import Lock
+from json.decoder import JSONDecodeError
 
 # Initialize a global lock
 file_lock = Lock()
 
-def load_account_info(phone_number):
-    file_path = f'accounts/{phone_number}.json'
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as file:
+def load_account_info(phone):
+    """
+    Load account information from a JSON file.
+    
+    Args:
+        phone (str): The phone number to load the account info for.
+        
+    Returns:
+        dict: The account information or None if an error occurred.
+    """
+    try:
+        with open(f'accounts/{phone}.json', 'r') as file:
             return json.load(file)
-    return None
+    except JSONDecodeError as e:
+        print(f"Error loading JSON for {phone}: {e}")
+        return None
+    except FileNotFoundError as e:
+        print(f"File not found for {phone}: {e}")
+        return None
 
 def load_channel_info():
     with open('sys-channels.json', 'r', encoding='utf-8') as file:

@@ -22,17 +22,19 @@ account_files = [f for f in os.listdir(accounts_folder) if f.endswith('.json')]
 
 # Iterate over account files and proxies simultaneously
 for account_file, proxy in zip(account_files, proxies):
-    account_path = os.path.join(accounts_folder, account_file)
-    
-    # Read the existing content of the account json file
-    with open(account_path, 'r') as file:
-        account_data = json.load(file)
-    
-    # Update the account data with the proxy settings
-    account_data['proxy_settings'] = proxy
-    
-    # Write the updated account data back to the file
-    with open(account_path, 'w') as file:
-        json.dump(account_data, file, indent=4)
-
+    try:
+        account_path = os.path.join(accounts_folder, account_file)
+        
+        # Read the existing content of the account json file
+        with open(account_path, 'r') as file:
+            account_data = json.load(file)
+        
+        # Update the account data with the proxy settings
+        account_data['proxy_settings'] = proxy
+        
+        # Write the updated account data back to the file
+        with open(account_path, 'w') as file:
+            json.dump(account_data, file, indent=4)
+    except Exception as e:
+        continue
 print("Updated account files with proxy settings.")

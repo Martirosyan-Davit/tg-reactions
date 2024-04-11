@@ -5,7 +5,7 @@ from json_helpers import load_account_info, load_channel_info
 
 async def main():
     session_files = [f[:-8] for f in os.listdir('accounts') if f.endswith('.session')]
-    batch_size = 10
+    batch_size = 200
     _, channel_links = load_channel_info()  # Assuming channel links are the second item in the tuple
     for i in range(0, len(session_files), batch_size):
         batch = session_files[i:i + batch_size]
